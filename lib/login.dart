@@ -1,4 +1,4 @@
-import 'package:ecom/home.dart';
+import 'package:ecom/navigation.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -124,7 +124,7 @@ class _LoginScreenState extends State<LoginScreen> {
                             Navigator.pushReplacement(
                               context,
                               MaterialPageRoute(
-                                  builder: (context) => HomeScreen()),
+                                  builder: (context) => NavigationScreen()),
                             );
                           }
                         },
